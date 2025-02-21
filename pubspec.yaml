@@ -1,0 +1,23 @@
+name: size_sdk
+description: A Flutter plugin for size recommendations
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.1 
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  size_sdk_platform_interface:
+    path: packages/size_sdk_platform_interface
+  size_sdk_android:
+    path: packages/size_sdk_android
+  size_sdk_ios:
+    path: packages/size_sdk_ios
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

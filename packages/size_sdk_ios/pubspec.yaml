@@ -1,0 +1,21 @@
+name: size_sdk_ios 
+description: iOS implementation of the size_sdk plugin.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.1
+  flutter: ">=3.3.0"
+
+flutter:
+  plugin:
+    implements: size_sdk
+    platforms:
+      ios:
+        pluginClass: SizeSdkPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  size_sdk_platform_interface:
+    path: ../size_sdk_platform_interface
